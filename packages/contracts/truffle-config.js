@@ -1,25 +1,25 @@
-require("babel-register");
-require("babel-polyfill");
+// require("babel-register");
+// require("babel-polyfill");
 
-//var HDWalletProvider = require("truffle-hdwallet-provider");
-var PrivateKeyProvider = require("truffle-privatekey-provider");
+var HDWalletProvider = require("truffle-hdwallet-provider");
+// var PrivateKeyProvider = require("truffle-privatekey-provider");
 
-var secrets = "",
-  ropstenPrivKey = "",
-  kovanPrivKey = "",
-  rinkebyPrivKey = "",
-  mainnetPrivKey = "",
-  infuraApikey = "",
-  alchemyApikey = "";
-try {
-  secrets = require("../../../config/secrets.js");
-    (ropstenPrivKey = secrets["private_key"]["ropsten"]),
-    (kovanPrivKey = secrets["private_key"]["kovan"]),
-    (rinkebyPrivKey = secrets["private_key"]["rinkeby"]),
-    (mainnetPrivKey = secrets["private_key"]["mainnet"]),
-    (infuraApikey = secrets["infura_apikey"]),
-    (alchemyApikey = secrets["alchemy_apikey"]);
-} catch (e) {}
+// var secrets = "",
+//   ropstenPrivKey = "",
+//   kovanPrivKey = "",
+//   rinkebyPrivKey = "",
+//   mainnetPrivKey = "",
+//   infuraApikey = "",
+//   alchemyApikey = "";
+// try {
+//   secrets = require("../../../config/secrets.js");
+//   (ropstenPrivKey = secrets["private_key"]["ropsten"]),
+//   (kovanPrivKey = secrets["private_key"]["kovan"]),
+//   (rinkebyPrivKey = secrets["private_key"]["rinkeby"]),
+//   (mainnetPrivKey = secrets["private_key"]["mainnet"]),
+//   (infuraApikey = secrets["infura_apikey"]),
+//   (alchemyApikey = secrets["alchemy_apikey"]);
+// } catch (e) {}
 
 module.exports = {
   migrations_directory: "./migrations",
@@ -100,6 +100,17 @@ module.exports = {
       timeoutBlocks: 200,
       skipDryRun: true
     },
+    matic: {
+      provider: function () {
+        return new HDWalletProvider(
+          "gesture rather obey video awake genuine patient base soon parrot upset lounge",
+          "https://testnet2.matic.network"
+        );
+      },
+      network_id: 8995,
+      gas: 8000000,
+      gasPrice: 0
+    },
     mainnet: {
       provider: () => new PrivateKeyProvider(
         mainnetPrivKey,
@@ -120,7 +131,7 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "../../node_modules/solc_0.5.3", // v0.5.3
+      version: "0.5.3", // v0.5.3
       settings: {
         optimizer: {
           enabled: true,

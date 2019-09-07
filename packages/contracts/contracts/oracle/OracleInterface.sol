@@ -96,7 +96,7 @@ contract OracleInterface {
     /// @param lender The lender address
     /// @param interestTokenAddress The interest token address
     /// @param amountOwed The amount interest to pay
-    /// @param gasUsed The initial used gas, collected in a modifier in bZx, for optional gas refunds
+    // / @param gasUsed The initial used gas, collected in a modifier in bZx, for optional gas refunds
     /// @return Successful execution of the function
     function didPayInterestByLender(
         address lender,
