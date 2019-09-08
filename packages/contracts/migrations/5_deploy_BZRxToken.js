@@ -8,10 +8,11 @@ module.exports = (deployer, network, accounts) => {
   deployer.then(async () => {
     if (network == "development" || network == "develop" || network == "testnet" || network == "coverage") {
       network = "development";
-    } else {
-      console.log(`   > [${parseInt(path.basename(__filename))}] BZRxToken deploy: #skiped`);
-      return;
     }
+    //  else {
+    //   console.log(`   > [${parseInt(path.basename(__filename))}] BZRxToken deploy: #skiped`);
+    //   return;
+    // }
 
     let token = await deployer.deploy(BZRxToken);
 
@@ -22,7 +23,9 @@ module.exports = (deployer, network, accounts) => {
       );
 
       var weth = await BZxEther.at(config["addresses"][network]["ZeroEx"]["WETH9"]);
-      await weth.deposit({ value: web3.utils.toWei("10", "ether") });
+      await weth.deposit({
+        value: web3.utils.toWei("10", "ether")
+      });
     }
 
     console.log(`   > [${parseInt(path.basename(__filename))}] BZRxToken deploy: #done`);
