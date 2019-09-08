@@ -6,7 +6,7 @@ var BZxVault = artifacts.require("BZxVault");
 var BZxProxy = artifacts.require("BZxProxy");
 var BZxProxySettings = artifacts.require("BZxProxySettings");
 var OracleRegistry = artifacts.require("OracleRegistry");
-var OracleNotifier = artifacts.require("OracleNotifier");
+// var OracleNotifier = artifacts.require("OracleNotifier");
 
 //var WETH = artifacts.require("WETHInterface");
 var BZxEther = artifacts.require("BZxEther");
