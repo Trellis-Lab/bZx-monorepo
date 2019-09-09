@@ -79,14 +79,13 @@ module.exports = (deployer, network, accounts) => {
       //   }
       //   oracleNotifier = await OracleNotifier.at(config["addresses"][network]["OracleNotifier"]);
       // }
-
       await deployer.deploy(
         BZxOracle,
         BZxVault.address,
         config["addresses"][network]["KyberContractAddress"] || NULL_ADDRESS,
         weth_token_address,
         bzrx_token_address,
-        oracleNotifier.address,
+        "0x0000000000000000000000000000000000000000", //oracleNotifier.address,
         "0x0000000000000000000000000000000000000000", // feeWallet
         {
           from: accounts[0]
