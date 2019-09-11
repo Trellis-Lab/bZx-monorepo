@@ -1,0 +1,558 @@
+[33mYou can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project[0m
+[33mYou can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project[0m
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      8995
+> Block gas limit: 0x7a1200
+
+
+2_deploy_BZxVault.js
+====================
+
+   Replacing 'BZxVault'
+   --------------------
+   > transaction hash:    0x169f1f08dba36e03bac74a9d81d41bff13c06480602a6b541533a587261de6b6
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 5
+   > contract address:    0xFccb19d465bfF3C54965648BecD0015fA3ccCB2B
+   > block number:        7475649
+   > block timestamp:     1568219232
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            690111
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [2] BZxVault deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_deploy_OracleRegistry.js
+==========================
+
+   Replacing 'OracleRegistry'
+   --------------------------
+   > transaction hash:    0x6d5199c82d66e68edc7100ca82d9050c7b406cc7d144c453366c352e559b69e5
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 5
+   > contract address:    0x0c4a97Db67D2aD9B3834743A86eCaFB16dC46744
+   > block number:        7475657
+   > block timestamp:     1568219248
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            1776393
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [3] OracleRegistry deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_deploy_BZxTo0x.js
+===================
+
+   Replacing 'BZxTo0x'
+   -------------------
+   > transaction hash:    0xcebed66039774fffcf2b0294977de7609c179cb0c58031bdb935eaf0e78c9d63
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 5
+   > contract address:    0xf2C6a18A14Ed004B324D4Ad239aB5740bBbf92b7
+   > block number:        7475666
+   > block timestamp:     1568219266
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            2072207
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'BZxTo0xV2'
+   ---------------------
+   > transaction hash:    0xe5142b26a0891b4c537657c236bddebed2dd708f51245d8a383ed3948f30adc0
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 5
+   > contract address:    0xcE2E8A586F632c7d2b8988EbF7146664FD515Be9
+   > block number:        7475674
+   > block timestamp:     1568219282
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            2053443
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [4] BZxTo0x/BZxTo0xV2 deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+5_deploy_BZRxToken.js
+=====================
+
+   Replacing 'BZRxToken'
+   ---------------------
+   > transaction hash:    0x529fb6d792f1a390e636e6a2179e7f2e8f3d09b290c73aee37f8ff609452994b
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x37aEA2583f30deb200bA0b1Ba7bFf5fa0d5681EF
+   > block number:        7475684
+   > block timestamp:     1568219302
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            1484056
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [5] BZRxToken deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+6_deploy_BZx.js
+===============
+
+   Replacing 'BZxProxySettings'
+   ----------------------------
+   > transaction hash:    0x8394051c72855b3c1fc9a83c633d22cc52cfa37fb64a6f25d1716c699daef8c3
+- Blocks: 0            Seconds: 0
+   > Blocks: 3            Seconds: 5
+   > contract address:    0x707eb855AB907C33345D2357C57D7f9f8BFB8483
+   > block number:        7475693
+   > block timestamp:     1568219320
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            2236557
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'BZxProxy'
+   --------------------
+   > transaction hash:    0x5f8c0f446f17f82836b3099373cd572c174c0eae1cef720fc45048f0d708410f
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x148A9A6Fb5f13E001D0f6f6D9430dfd9017bA49E
+   > block number:        7475699
+   > block timestamp:     1568219332
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            1563432
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [6] BZx deploy/setup: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+8_deploy_BZxOrderTaking.js
+==========================
+Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-core-helpers/src/errors.js:42:1)
+    at t.InvalidResponse [as onreadystatechange] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-providers-http/src/index.js:92:1)
+    at t.call [as dispatchEvent] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)
+    at t.dispatchEvent [as _setReadyState] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)
+    at t._setReadyState [as _onHttpRequestError] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:349:1)
+    at ClientRequest._onHttpRequestError (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:252:47)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+   Replacing 'OrderTaking_MiscFunctions'
+   -------------------------------------
+   > transaction hash:    0xa3eb580fdca557f3a24d4b38d55543b77164acf35454ca6a301d3fab265e0b63
+- Blocks: 0            Seconds: 0
+   > Blocks: 5            Seconds: 9
+   > contract address:    0xE83f50a14FC9BAA29E9Fb3Fa46d5c8541167Cf75
+   > block number:        7475727
+   > block timestamp:     1568219388
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            4616586
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OrderTaking_takeLoanOrderAsLender'
+   ---------------------------------------------
+   > transaction hash:    0x58d2d0e46a0b44ec8662ca7f0835559b1f6cbc99c861e6bdc28dda5b2a9c5595
+- Blocks: 0            Seconds: 0
+   > Blocks: 3            Seconds: 6
+   > contract address:    0xbD6009ccB2A10277962b2a7288EC5f3B3Dee3Dc1
+   > block number:        7475739
+   > block timestamp:     1568219412
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            6115943
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OrderTaking_takeLoanOrderAsTrader'
+   ---------------------------------------------
+   > transaction hash:    0xfdb2e2125c005da953e0f25caf2c4be5ed91cc9132f7b0befcc6768771a336c4
+- Blocks: 0            Seconds: 0
+   > Blocks: 3            Seconds: 5
+   > contract address:    0x273Bcce8585f196444321995d59592fE42Fa758F
+   > block number:        7475749
+   > block timestamp:     1568219432
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            6145506
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OrderTaking_takeLoanOrderOnChainAsLender'
+   ----------------------------------------------------
+   > transaction hash:    0xa105d630bc9746885a0ee9b8f9b3f12ceac47560d793f4eb0d9e91b5743151f9
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 5
+   > contract address:    0x160609793ad89E98AEa00E050065c1a358a7C812
+   > block number:        7475762
+   > block timestamp:     1568219458
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            4900552
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OrderTaking_takeLoanOrderOnChainAsTrader'
+   ----------------------------------------------------
+   > transaction hash:    0x87c2587b2bcdcc8e5f209b3e7f5f3710f4fe4fc152c60a6451a9150d1d9ecccb
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 5
+   > contract address:    0x6c5737Ac987215822f89f6DC81c115f61d39788F
+   > block number:        7475772
+   > block timestamp:     1568219478
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            4836226
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OrderTaking_takeLoanOrderOnChainAsTraderByDelegate'
+   --------------------------------------------------------------
+   > transaction hash:    0xd0542d50ca86002819ba9eff3aca2788536b2c226593b82cfd4c1216961aaa84
+- Blocks: 0            Seconds: 0
+   > Blocks: 3            Seconds: 5
+   > contract address:    0x4367F80cfcADDF86A700fB5700d1D1D912a39ef4
+   > block number:        7475782
+   > block timestamp:     1568219498
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            4907476
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [8] BZxOrderTakingOnChain deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+9_deploy_BZxOrderHistory.js
+===========================
+
+   Replacing 'OrderHistory_MiscFunctions'
+   --------------------------------------
+   > transaction hash:    0x377fc5ba4dc810638f7d7b1150c3f0978eef228364420876ec11bea61706a95d
+- Blocks: 0            Seconds: 0
+   > Blocks: 4            Seconds: 9
+   > contract address:    0x391159A31203362D6BC1E67B4e4323Fa8640448a
+   > block number:        7475797
+   > block timestamp:     1568219528
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            3622041
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [9] BZxOrderHistory deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+10_deploy_BZxTradePlacing.js
+============================
+
+   Replacing 'TradePlacing_Oracle'
+   -------------------------------
+   > transaction hash:    0x59c0e7acb9dc5e664b38679e74eb1d620e74a64b3682e158db5cadc84362cef0
+- Blocks: 0            Seconds: 0
+   > Blocks: 5            Seconds: 9
+   > contract address:    0xfD3dC7455392992c5843614d7c20b3E3070e49e4
+   > block number:        7475816
+   > block timestamp:     1568219566
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            2247688
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'TradePlacing_ZeroEx'
+   -------------------------------
+   > transaction hash:    0xd4e077745df659574e311f312e323f62b48fbd8f29a378e0257f5bbcc76830de
+- Blocks: 0            Seconds: 0
+   > Blocks: 3            Seconds: 7
+   > contract address:    0x2F5883F471d5054a381a24a9B7E12E5D7769366D
+   > block number:        7475828
+   > block timestamp:     1568219590
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            3068700
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [10] BZxTradePlacing0xV2 deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+11_deploy_BZxLoanMaintenance.js
+===============================
+
+   Replacing 'LoanMaintenance_MiscFunctions'
+   -----------------------------------------
+   > transaction hash:    0x7b8867cbc226bde6ba7b796c1802355dcebd1e3429a8f75062b4aa95d5861e80
+- Blocks: 0            Seconds: 0
+   > Blocks: 4            Seconds: 10
+   > contract address:    0xFA7D2A487b94674d38013fc9e4eDe6F5950F22Cb
+   > block number:        7475849
+   > block timestamp:     1568219632
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            5589166
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'LoanMaintenance_MiscFunctions2'
+   ------------------------------------------
+   > transaction hash:    0x0000853f95c68d7d2a46c5e21d4120ca997995f655082c80bf44828d44b05012
+- Blocks: 0            Seconds: 0
+   > Blocks: 5            Seconds: 10
+   > contract address:    0x185192dDA09E6dbfC5F8DC350CDE0972A90a3181
+   > block number:        7475867
+   > block timestamp:     1568219668
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            3324852
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [11] BZxLoanMaintenance deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+12_deploy_BZxLoanHealth.js
+==========================
+
+   Replacing 'LoanHealth_MiscFunctions'
+   ------------------------------------
+   > transaction hash:    0x81bbdd84221158a0f96ff4daec36cab67835c4dc14cbd1ece377774f80012969
+- Blocks: 0            Seconds: 0
+   > Blocks: 5            Seconds: 11
+   > contract address:    0xb7158c17ACAe4fdD71D3Da78c92f190dF4884f4E
+   > block number:        7475892
+   > block timestamp:     1568219718
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            5285325
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'LoanHealth_MiscFunctions2'
+   -------------------------------------
+   > transaction hash:    0x823d11dfd5145271ee2e9c6e7ee8e0a5a07dc92923921363a08ec4e312662619
+- Blocks: 0            Seconds: 0
+Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-core-helpers/src/errors.js:42:1)
+    at t.InvalidResponse [as onreadystatechange] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-providers-http/src/index.js:92:1)
+    at t.call [as dispatchEvent] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)
+    at t.dispatchEvent [as _setReadyState] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)
+    at t._setReadyState [as _onHttpRequestError] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:349:1)
+    at ClientRequest._onHttpRequestError (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:252:47)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-core-helpers/src/errors.js:42:1)
+    at t.InvalidResponse [as onreadystatechange] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-providers-http/src/index.js:92:1)
+    at t.call [as dispatchEvent] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)
+    at t.dispatchEvent [as _setReadyState] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)
+    at t._setReadyState [as _onHttpRequestError] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:349:1)
+    at ClientRequest._onHttpRequestError (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:252:47)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-core-helpers/src/errors.js:42:1)
+    at t.InvalidResponse [as onreadystatechange] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-providers-http/src/index.js:92:1)
+    at t.call [as dispatchEvent] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)
+    at t.dispatchEvent [as _setReadyState] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)
+    at t._setReadyState [as _onHttpRequestError] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:349:1)
+    at ClientRequest._onHttpRequestError (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:252:47)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-core-helpers/src/errors.js:42:1)
+    at t.InvalidResponse [as onreadystatechange] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-providers-http/src/index.js:92:1)
+    at t.call [as dispatchEvent] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)
+    at t.dispatchEvent [as _setReadyState] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)
+    at t._setReadyState [as _onHttpRequestError] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:349:1)
+    at ClientRequest._onHttpRequestError (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:252:47)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Error: Invalid JSON RPC response: ""
+    at Object.InvalidResponse (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-core-helpers/src/errors.js:42:1)
+    at t.InvalidResponse [as onreadystatechange] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/web3/node_modules/web3-providers-http/src/index.js:92:1)
+    at t.call [as dispatchEvent] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:1)
+    at t.dispatchEvent [as _setReadyState] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:208:1)
+    at t._setReadyState [as _onHttpRequestError] (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:349:1)
+    at ClientRequest._onHttpRequestError (/home/manjain/Documents/bZx-monorepo/packages/contracts/node_modules/truffle-hdwallet-provider/dist/webpack:/truffle-hdwallet-provider/Users/gnidan/src/work/truffle/node_modules/xhr2-cookies/dist/xml-http-request.js:252:47)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+   > Blocks: 3            Seconds: 10
+   > contract address:    0x8581b7cBDF720CbA4Fad20a5cAF73A28A1c1A763
+   > block number:        7475908
+   > block timestamp:     1568219750
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            2281997
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'LoanHealth_MiscFunctions3'
+   -------------------------------------
+   > transaction hash:    0xa3e3740de05cfca5f813768aa2f8edf981ed6450c121696c815ddf6c1fefea5c
+- Blocks: 0            Seconds: 0
+   > Blocks: 5            Seconds: 9
+   > contract address:    0xCb8fbea6EE139A020091D401A7AF37Dab5727851
+   > block number:        7475925
+   > block timestamp:     1568219784
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            5325727
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [12] BZxLoanHealth deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+15_deploy_BZxOracle.js
+======================
+
+   Deploying 'TestNetOracle'
+   -------------------------
+   > transaction hash:    0x7985d8987a97ee4979a51423c2c463043aa21a836428f0ec2ed3978f3ede1b67
+- Blocks: 0            Seconds: 0
+   > Blocks: 4            Seconds: 16
+   > contract address:    0x953F5680adAD958049C5f356accfA679b052a508
+   > block number:        7475948
+   > block timestamp:     1568219830
+   > account:             0x2B522cABE9950D1153c26C1b399B293CaA99FcF9
+   > balance:             0
+   > gas used:            6310354
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+   > [15] BZxOracle deploy: #done
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+17_deploy_TokenRegistry.js
+==========================
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+Summary
+=======
+> Total deployments:   22
+> Final cost:          0 ETH
+
+

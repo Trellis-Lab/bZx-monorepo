@@ -64,7 +64,7 @@ module.exports = (deployer, network, accounts) => {
 
     let valueAmount = "0";
     if (!OLD_ORACLE_ADDRESS) {
-      valueAmount = web3.utils.toWei("1", "ether");
+      valueAmount = web3.utils.toWei("0", "ether");
     }
 
     deployer.then(async function () {
@@ -165,13 +165,15 @@ module.exports = (deployer, network, accounts) => {
         */
       }
 
-      var weth = await BZxEther.at(weth_token_address);
+      //Since value cannot be transfered atm
+
+      /*var weth = await BZxEther.at(weth_token_address);
       if (!OLD_ORACLE_ADDRESS) {
         await weth.deposit({
           value: valueAmount
         });
         await weth.transfer(oracleAddress, valueAmount);
-      }
+      }*/
 
       // await oracleNotifier.transferBZxOwnership(oracleAddress);
 
